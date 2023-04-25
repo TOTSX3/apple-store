@@ -1,0 +1,369 @@
+.bx {
+  display: inline-block;
+}
+
+body {
+  font-family: system-ui;
+  background-color: #1d1a30;
+}
+
+.Container {
+  width: 100%;
+  height: auto;
+  background-color: #ecf0f3;
+  display: grid;
+  overflow: hidden;
+  grid-template-rows: 2fr 1fr 19fr;
+}
+
+.inp {
+  width: 85%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ecf0f3;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+  height: 6vh;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+  display: inline-block;
+  margin: 20px;
+
+  padding: 10px;
+}
+
+.bx-cart,
+.bx-bell {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ecf0f3;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+  margin-left: 10px;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* img */
+.img {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.cover {
+  background: url(/apple-store/img/apple-pacific-centre-store-vancouver-downtown-f.jpg);
+  background-size: cover;
+  overflow: hidden;
+
+  font-family: "Montserrat", sans-serif;
+  background-color: #ecf0f3;
+  border-radius: 8px;
+  background-position: center center;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+/* section */
+section {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin: 20px;
+}
+.option {
+  background-color: #eee;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 20%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ecf0f3;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+}
+
+.HD {
+  background-image: url(/apple-store/img/store-card-40-accessories-202303.jpeg);
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.rf-ccard-content-info {
+  padding: 30px;
+  width: 20rem;
+  color: white;
+  height: auto;
+}
+
+.aplle {
+  padding: 30px;
+  width: 100%;
+  color: white;
+  height: auto;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.452);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.icons {
+  font-size: 20px;
+}
+
+.conact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ecf0f3;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+  padding: 20px;
+  margin: 20px;
+}
+
+.img-card {
+  overflow: hidden;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+  background-color: white;
+}
+.text-card {
+  margin: 10px;
+}
+
+.imgs {
+  width: 50%;
+}
+
+.card-con {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  height: 80vh;
+  margin: 10px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ecf0f3;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+}
+
+.plus {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.bxs-star {
+  color: gold;
+}
+
+.top{display: none;}
+
+@media screen and (max-width: 767px) and (min-width: 520px) {
+  .top {
+    width: 90%;
+    height: 10vh;
+    background-color: black;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10px;
+    z-index: 999;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    display: block;
+  }
+  .ic {
+    margin-left: 10px;
+    color: #ecf0f3;
+  }
+
+  .HD {
+    display: none;
+  }
+  .inp {
+    width: 75%;
+  }
+
+  .bx-cart,
+  .bx-bell {
+    margin-left: 0px;
+    padding: 5px;
+  }
+
+  .img {
+    display: block;
+  }
+
+  .cover {
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ecf0f3;
+    border-radius: 8px;
+
+    background-position: center center;
+    border-radius: 20px;
+    margin: 10px;
+  }
+
+  .Container {
+    width: 100%;
+    height: auto;
+    background-color: #ecf0f3;
+    display: grid;
+    overflow: hidden;
+    grid-template-rows: 1.5fr 1fr 19fr;
+  }
+
+  .conact {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ecf0f3;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .card-con {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    height: 27vh;
+    margin: none;
+    border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ecf0f3;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+  }
+
+  .TOP {
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    width: 90%;
+    height: 8vh;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    margin-left: 2.5vh;
+    border-radius: 30px;
+    right: 20px;
+    bottom: 5px;
+    display: block;
+
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .top {
+    width: 90%;
+    height: 10vh;
+    background-color: black;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10px;
+    z-index: 999;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+  }
+  .ic {
+    margin-left: 10vw;
+    color: #ecf0f3;
+  }
+
+  .Container {
+    width: 100%;
+    height: auto;
+    background-color: #ecf0f3;
+    display: grid;
+    overflow: hidden;
+    grid-template-rows: 0.1fr 0.5fr 20fr;
+  }
+
+  .HD {
+    display: none;
+  }
+  .inp {
+    width: 55%;
+  }
+
+  .bx-cart,
+  .bx-bell {
+    margin-left: 0px;
+    padding: 5px;
+  }
+
+  .img {
+    display: block;
+  }
+
+  .cover {
+    margin: 10px;
+    width: 95vw;
+  }
+
+  /* ............. */
+  section {
+    margin: auto;
+  }
+  .option {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  .HID {
+    display: none;
+  }
+
+  .conact {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .card-con {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    height: auto;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.TOP {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  z-index: 999;
+  border-radius: 30px;
+  right: 20px;
+  bottom: 20px;
+  margin-left: 4vh;
+}
